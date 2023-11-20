@@ -1,0 +1,28 @@
+package EserciziITS01;
+
+import java.util.Scanner; 
+
+public class Prova {
+
+	public static void main(String[] args) {
+		
+//		if (Condizione) {
+//			//caso positivo
+//		} else {
+//			//caso negativo
+//		}
+		Scanner elemento = new Scanner(System.in); 
+		
+		int i = 0; 
+		int somma = 0;
+		while (i < 5) {
+			System.out.println("Inserisci il numero");
+			int numero = elemento.nextInt();
+			somma = somma + numero;
+			i++; 		
+		}
+		float media = somma / 5; 
+		System.out.println("la media è " + media);
+	}
+
+}

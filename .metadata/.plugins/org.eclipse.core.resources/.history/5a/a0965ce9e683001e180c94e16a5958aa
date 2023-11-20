@@ -1,0 +1,39 @@
+package EserciziITS01;
+
+import java.util.Scanner; 
+
+public class Prova {
+
+	public static void main(String[] args) {
+		
+		//----------PARI DISPARI------------
+		Scanner elemento = new Scanner(System.in); 
+		System.out.println("inserisci numero intero ");
+		int numero = elemento.nextInt();
+		if (numero >= 0 )
+			if (numero % 2 == 0)
+			System.out.println("il numero è pari");
+		else
+			System.out.println("il numero è dispari");
+		else 
+			System.out.println("il numero non è intero");
+		
+		
+//		int i = 0; 
+//		float somma = 0f;
+//		while (i < 5) {
+//			System.out.println("Inserisci il " + (i+1) +  " numero");
+//			float numero = elemento.nextFloat();
+//			somma = somma + numero;
+//			i++; 		
+//		}
+//		float media = somma / 5; 
+//		System.out.println("la media è " + media);
+//	}
+
+		
+
+		
+	 
+	}
+}

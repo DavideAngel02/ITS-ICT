@@ -1,0 +1,8 @@
+package Oggetti01;
+
+public class Camera {
+
+	String numero;
+	boolean occupata;
+	
+}

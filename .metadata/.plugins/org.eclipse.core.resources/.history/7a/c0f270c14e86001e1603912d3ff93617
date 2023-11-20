@@ -1,0 +1,63 @@
+package EserciziITS01;
+
+import java.util.Scanner;
+public class Stringhe {
+
+	public static void main(String[] args) {
+		
+		//---------CONTA VOCALI E CONSONANTI----------		
+//		Scanner input = new Scanner(System.in);
+//		System.out.println("Scrivi qualcosa: ");
+//		String parola = input.nextLine();
+//		parola = parola.toLowerCase();
+//		int vocali = 0;
+//		int consonanti = 0;
+//		for (int i = 0; i < parola.length(); i++) {
+//			if ((Character.isLetter(parola.charAt(i))) && (parola.charAt(i) == 'a' || parola.charAt(i) == 'e' || parola.charAt(i) == 'i' || parola.charAt(i) == 'o' || parola.charAt(i) == 'u')) 
+//				vocali++;
+//			else if (Character.isLetter(parola.charAt(i)))
+//				consonanti++;
+//			}
+//			System.out.println("ci sono " + vocali + " vocali");
+//			System.out.println("ci sono " + consonanti + " consonanti");
+		
+		//--------------------------------------------
+		
+		//---------INVERSIONE----------		
+//		Scanner input = new Scanner(System.in);
+//		System.out.println("Inserisci parola da convertire: ");
+//		String parola = input.nextLine();
+//		String invertita = "";
+//        for (int i = parola.length() - 1; i >= 0; i--)
+//            invertita = invertita + parola.charAt(i); // si può anche scrivere invertita += parola.charAt();        
+//        System.out.println(invertita);
+        
+// 		altro metodo sostituendo da string invertita in poi, usando gli array        
+//		char[] caratteri = parola.toCharArray();
+//		char[] invertita = new char[caratteri.length];
+//		for (int i = 0; i < parola.length(); i++) {
+//			invertita[i] = caratteri[caratteri.length - 1 - i];
+//		}
+//			System.out.println(invertita); //dubbio sull'array di caratteri, l'intera parola è in invertita[0]?			
+		//------------------------------
+        
+        //----------PALINDROMO-----------
+		Scanner input = new Scanner(System.in);
+		System.out.println("Inserisci parola: ");
+		String parola = input.nextLine();
+		int x = 1;
+		boolean palindromo = false;
+		for (int i = 0; i < parola.length(); i++) 
+			if (parola.charAt(i) == parola.charAt(parola.length()- 1)) { 
+				palindromo = true;
+				x++;
+			}
+			else 
+				palindromo = false;
+			
+			if (palindromo)
+				System.out.println("la parola inserita è palindroma");
+	
+	}
+
+}

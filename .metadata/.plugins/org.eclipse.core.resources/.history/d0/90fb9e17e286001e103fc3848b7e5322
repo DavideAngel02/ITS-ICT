@@ -1,0 +1,41 @@
+package EserciziITS01;
+
+import java.util.Scanner;
+
+public class array {
+
+	public static void main(String[] args) {
+		
+		//-----RICERCA MAX/MIN-----
+//		int[] array = new int[5];
+//		array[0] = 21;
+//		array[1] = 12;
+//		array[2] = 187;
+//		array[3] = 20;
+//		array[4] = 3;
+//		int max = 0;
+//		int min = 1000;
+//		for (int i = 0; i < array.length; i++) 
+//			if (array[i] < min)
+//				min = array[i];
+//			else if (array[i] > max)
+//					max = array[i];
+//		System.out.println("il minimo è: " + min + " e il massimo è: " + max);
+		//--------------------------
+		
+		//----ORDINE INVERSO----
+		int[] array = new int[5];
+		array[0] = 1;
+		array[1] = 2;
+		array[2] = 3;
+		array[3] = 4;
+		array[4] = 5;
+		for (int i = 0; i < array.length; i++)
+			for (int j = 4; j > 0; j--)
+				array[i] = array[j];
+		for (int i = 0; i < array.length; i++)
+			System.out.println(array[i]);
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package EserciziITS01;
+
+import java.util.Scanner;
+public class Stringhe {
+
+	public static void main(String[] args) {
+		
+		//---------CONTA VOCALI E CONSONANTI----------
+//		Scanner input = new Scanner(System.in);
+//		System.out.println("Scrivi qualcosa: ");
+//		String parola = input.nextLine();
+//		parola = parola.toLowerCase();
+//		int vocali = 0;
+//		int consonanti = 0;
+//		for (int i = 0; i < parola.length(); i++) {
+//			if ((Character.isLetter(parola.charAt(i))) && (parola.charAt(i) == 'a' || parola.charAt(i) == 'e' || parola.charAt(i) == 'i' || parola.charAt(i) == 'o' || parola.charAt(i) == 'u')) 
+//				vocali++;
+//			else if (Character.isLetter(parola.charAt(i)))
+//				consonanti++;
+//			}
+//			System.out.println("ci sono " + vocali + " vocali");
+//			System.out.println("ci sono " + consonanti + " consonanti");
+		
+		//--------------------------------------------
+		
+		//---------INVERSIONE----------
+		Scanner input = new Scanner(System.in);
+		System.out.println("Inserisci parola da convertire: ");
+		String parola = input.nextLine();
+		int max = parola.length();
+		char[] array = new char[max];
+		for (int i = max; i > 0; i--) {
+			array[i] = parola.charAt(i);
+		}		
+		System.out.println(array);
+	}
+
+}

@@ -1,0 +1,110 @@
+package Oggetti01;
+
+import java.util.Scanner;
+public class App {
+
+	public static void main(String[] args) {
+		
+		//------LIBRI------
+//		Libro LOTR = new Libro();
+//		LOTR.titolo = "Il Signore degli Anelli";
+//		LOTR.autore = "J.R.R. Tolkien";
+//		
+//		Libro DPI = new Libro();
+//		DPI.titolo = "10 piccoli imprenditori";
+//		DPI.autore = "Dario Greggio";
+//		
+//		Libro[] listaLibri= new Libro[2];
+//		listaLibri[0] = LOTR;
+//		listaLibri[1] = DPI;
+//		
+//		for (int i = 0; i < 2; i++)
+//			listaLibri[i].stampa();
+		//-------------------
+		
+		//-------AUTOMOBILI--------
+//		Scanner input = new Scanner(System.in);
+//		Automobile[] concessionario = new Automobile[2];
+//		for (int i = 0; i < concessionario.length; i++) {
+//			concessionario[i] = new Automobile();
+//			System.out.println("inserisci marca: ");
+//			concessionario[i].marca = input.nextLine();
+//			System.out.println("inserisci modello: ");
+//			concessionario[i].modello = input.nextLine();		
+//		}
+//		for (int i = 0; i < 2; i++)
+//			concessionario[i].stampa();
+		//-------------------------
+		
+		//-------STUDENTI-------
+//		Scanner input = new Scanner(System.in);
+//		Studente[] studenti = new Studente[3];
+//		for (int i = 0; i < studenti.length; i++) {
+//			studenti[i] = new Studente();
+//			System.out.println("inserisci nome studente: ");
+//			studenti[i].nome = input.nextLine();
+//			System.out.println("inserisci voto studente: ");
+//			studenti[i].voto = input.nextFloat();
+//			input.nextLine();
+//		}
+//		for (int i = 0; i < 3; i++)
+//			studenti[i].stampa();
+		
+//		float somma = 0;
+//		for (int i = 0; i < studenti.length; i++)
+//			somma += studenti[i].voto;
+//		float media = somma / studenti.length;
+//		System.out.println("la media è: " + media);
+//		float media = media(studenti); //ERRORE
+		//--------------------------------
+
+		//--------ALBERGO--------
+//		Scanner input = new Scanner(System.in);
+//		Camera prima = new Camera();
+//		prima.numero = 1;
+//		prima.occupata = true;
+//		Camera seconda = new Camera();
+//		seconda.numero = 2;
+//		seconda.occupata = true;
+//		Camera terza = new Camera();
+//		terza.numero = 3;
+//		terza.occupata = false;
+//		Camera[] listaCamere = new Camera[3];
+//		listaCamere[0] = prima;
+//		listaCamere[1] = seconda;
+//		listaCamere[2] = terza;
+//		String stato;
+//		boolean esiste = false;
+//	
+//		for (int i = 0; i < listaCamere.length; i++) {
+//			if (listaCamere[i].occupata == false)
+//				stato = "Libera";
+//			else
+//				stato = "Occupata";					
+//			System.out.println(listaCamere[i].numero + ": " + stato );
+//		}
+//		
+//		System.out.println("Quale Camera vuoi prenotare o liberare? ");
+//		int prenotazione = input.nextInt();
+//		for (int i = 0; i < listaCamere.length; i++)
+//			if(prenotazione == listaCamere[i].numero && listaCamere[i].occupata == false) {
+//				listaCamere[prenotazione - 1].occupata = true;
+//				esiste = true;
+//			}
+//			else if (prenotazione == listaCamere[i].numero && listaCamere[i].occupata == true) {
+//				listaCamere[prenotazione - 1].occupata = false;
+//				esiste = true;
+//			}			
+//			
+//		if (!esiste)
+//			System.out.println("la camera non esiste");
+//		else	
+//			for (int i = 0; i < listaCamere.length; i++) {
+//				if (listaCamere[i].occupata == false) 
+//					stato = "Libera";
+//				else
+//					stato = "Occupata";					
+//			System.out.println(listaCamere[i].numero + ": " + stato );
+//		}
+	}
+}

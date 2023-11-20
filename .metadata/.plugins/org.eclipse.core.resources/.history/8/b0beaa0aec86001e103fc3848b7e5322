@@ -1,0 +1,12 @@
+package Oggetti01;
+
+public class Libro {
+	
+	String titolo;
+	String autore;
+	
+	void stampa() {
+		System.out.println(titolo + " " + autore);
+	}
+
+}

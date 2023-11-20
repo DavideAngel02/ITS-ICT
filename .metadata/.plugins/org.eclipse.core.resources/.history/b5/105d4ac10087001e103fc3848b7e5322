@@ -1,0 +1,24 @@
+package Oggetti01;
+
+public class Studente {
+
+	String nome;
+	float voto;
+	
+	
+	public static float media(Studente[] array) {
+		
+		float somma = 0;
+		for (int i = 0; i < array.length; i++) 
+			somma += array[i].voto;
+		float media = somma / array.length;
+		return media;
+		
+		
+	}
+	
+	void stampa() {
+		System.out.println("Studente " + nome + " voto: " + voto);
+		
+	}
+}
