@@ -35,9 +35,10 @@ public class stringhe {
 // 		altro metodo usando gli array        
 //		char[] caratteri = parola.toCharArray();
 //		char[] invertita = new char[caratteri.length];
-//		for (int i = 0; i < parola.length(); i++) 
+//		for (int i = 0; i < parola.length(); i++) {
 //			invertita[i] = caratteri[caratteri.length - 1 - i];
-//			System.out.println(invertita); 		
+//		}
+//			System.out.println(invertita); //dubbio sull'array di caratteri, l'intera parola è in invertita[0]?			
 		//------------------------------
         
         //----------PALINDROMO-----------

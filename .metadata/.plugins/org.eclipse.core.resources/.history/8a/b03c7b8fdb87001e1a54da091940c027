@@ -24,20 +24,21 @@ public class stringhe {
 		//--------------------------------------------
 		
 		//---------INVERSIONE----------		
-//		Scanner input = new Scanner(System.in);
-//		System.out.println("Inserisci parola da convertire: ");
-//		String parola = input.nextLine();
+		Scanner input = new Scanner(System.in);
+		System.out.println("Inserisci parola da convertire: ");
+		String parola = input.nextLine();
 //		String invertita = "";
 //        for (int i = parola.length() - 1; i >= 0; i--)
 //            invertita = invertita + parola.charAt(i);    
 //        System.out.println(invertita);
         
 // 		altro metodo usando gli array        
-//		char[] caratteri = parola.toCharArray();
-//		char[] invertita = new char[caratteri.length];
-//		for (int i = 0; i < parola.length(); i++) 
-//			invertita[i] = caratteri[caratteri.length - 1 - i];
-//			System.out.println(invertita); 		
+		char[] caratteri = parola.toCharArray();
+		char[] invertita = new char[caratteri.length];
+		for (int i = 0; i < parola.length(); i++) 
+			invertita[i] = caratteri[caratteri.length - 1 - i];
+		for (int i=0; i<invertita.length ; i++)
+			System.out.println(invertita); 		
 		//------------------------------
         
         //----------PALINDROMO-----------
